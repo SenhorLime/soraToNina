@@ -5,45 +5,84 @@ html, body {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-color: #1e1e1e;
+    background-color: #353340;
 }
 
 
 .main-container {
-    background-color: #282828;
-    width: 95vw;
-    height: 95vh;
+    background-color: #353340;
+    width: 35vw;
+    height: 75vh;
+    position: absolute;
+    transform: translate(-137%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 25px;
+    box-shadow: 0 0 10px #b2abd8;
+}
+
+#quiz-scene {
+    background-color: #353340;
+    width: 60vw;
+    height: 75vh;
+    position: absolute;
+    transform: translate(32%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 25px;
+    box-shadow: 0 0 10px #b2abd8;
+}
+
+.quiz-questions {
+    width: 58vw;
+    height: 65vh;
     position: absolute;
     transform: translate(-50%, -50%);
     top: 50%;
     left: 50%;
-    border-radius: 25px;
-    box-shadow: 0 0 15px #5f5f5f9e;
 }
 
-#quiz-scene {
-    background-color: #c8c8c8;
-    width: 90vw;
-    height: 25vh;
+.question-title {
+    text-align: center;
+    width: 55vw;
+    height: 60vh;
     position: absolute;
-    transform: translate(-50%, -95%);
-    top: 95%;
+    transform: translate(-50%, -50%);
+    top: 50%;
     left: 50%;
-    border-radius: 15px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 }
 
-#quiz-scene .quiz-title {
-    display: flex;
-    font-weight: 700;
+.question-title span {
     font-size: 2vw;
-    padding: 0 0 15px 15px;
+    font-weight: 500;
+    color: #998da6;
 }
 
-#quiz-scene .quiz-description {
-    font-weight: 400;
-    font-size: 1.5vw;
-    padding: 0px 15px 10px 15px;
+.answer-btn {
+    width: 45vw;
+    position: absolute;
+    transform: translate(-50%, -30%);
+    top: 50%;
+    left: 50%;
+}
+
+input {
+    display: flex;
+    border: 0;
+    font-size: 1.7vw;
+    font-weight: 600;
+    width: 100%;
+    padding: 10px 10px 10px 10px;
+    border-radius: 25px;
+    margin-top: 3%;
+    background-color: #433f5d;
+    color: #f2f2f2;
+    transition: 0.2s ease-out;
+    box-shadow: 0 0 10px #2f2c42;
+}
+
+input:hover {
+    background-color: #2f2c42;
+    color: #b2abd8;
+    transition: 0.2s ease-in;
 }
