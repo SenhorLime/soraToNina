@@ -18,7 +18,7 @@ html, body {
     top: 50%;
     left: 50%;
     border-radius: 25px;
-    box-shadow: 0 0 10px #b2abd8;
+    box-shadow: 0 0 10px #685073;
 }
 
 #quiz-scene {
@@ -30,7 +30,7 @@ html, body {
     top: 50%;
     left: 50%;
     border-radius: 25px;
-    box-shadow: 0 0 10px #b2abd8;
+    box-shadow: 0 0 10px #47394D;
 }
 
 .quiz-questions {
@@ -55,7 +55,7 @@ html, body {
 .question-title span {
     font-size: 2vw;
     font-weight: 500;
-    color: #998da6;
+    color: #A9A3CC;
 }
 
 .answer-btn {
@@ -75,14 +75,15 @@ input {
     padding: 10px 10px 10px 10px;
     border-radius: 25px;
     margin-top: 3%;
-    background-color: #433f5d;
+    background-color: #2a2839;
     color: #f2f2f2;
-    transition: 0.2s ease-out;
-    box-shadow: 0 0 10px #2f2c42;
+    transition: 0.3s linear;
+    box-shadow: 0 0 10px #433f5d;
 }
 
 input:hover {
-    background-color: #2f2c42;
+    background-color: #433f5d;
     color: #b2abd8;
-    transition: 0.2s ease-in;
+    box-shadow: 0 0 10px #2a2839;
+    transition: 0.3s linear;
 }

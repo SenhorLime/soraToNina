@@ -20,9 +20,17 @@
 
 - Link entre os arquivos da tela inicial para a tela de jogo
 
-- Criação do arquivo de mundaças
-
 **Fato curioso, o design dos botões estava tão bom que a Tia Katt achou que a gente tinha usado um framework para fazer ele :P**
+
+### **Dia 12/11 - Mudanças na cores**
+
+Troquei algumas cores na tela de login e apliquei as mesmas mudanças na tela de jogo
+
+- Mudei as cores de background
+
+- Mudei as cores das sombras e dos botões
+
+- Mudei a transição dos botões para algo mais suave
 
 ## **Coisas que ainda precisam ser feitas**
 
