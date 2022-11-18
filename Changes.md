@@ -32,6 +32,18 @@ Troquei algumas cores na tela de login e apliquei as mesmas mudanças na tela de
 
 - Mudei a transição dos botões para algo mais suave
 
+### **Dia 18/11 - Aplicação da versão de JavaScript**
+
+**Aplicação de JavaScript inicial**
+- Três perguntar foram adicionadas com fins de testar a lógica do JavaScript
+
+- As perguntas mudam depois de que o usuario clica no botão de proximo
+
+**Mudança do tipo de Input**
+- O input foi mudado de button para radio
+
+- O radio é escondido usando CSS e é ativado quando o jogador clica no label de resposta 
+
 ## **Coisas que ainda precisam ser feitas**
 
 - [ ] Resolver os bugs de tamanho quando a tela é reduzida
@@ -40,12 +52,14 @@ Troquei algumas cores na tela de login e apliquei as mesmas mudanças na tela de
 
 - [ ] Testar como as cenas vão aparecer
 
-- [ ] Pegar o valor do botão usando o JS
+- [x] Pegar o valor do input usando o JS (Completo dia 18/11)
 
-- [ ] Mudar o texto com o passar das perguntas
+- [x] Mudar o texto com o passar das perguntas (Completo dia 18/11)
 
 - [ ] Fazer a tela de finalização
 
 - [ ] Testar o jogo com outras pessoas
 
 - [ ] Fazer a tela de créditos
+
+- [ ] Desenvolver o timer para a responder as perguntas
