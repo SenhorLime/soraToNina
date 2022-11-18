@@ -44,6 +44,16 @@ Troquei algumas cores na tela de login e apliquei as mesmas mudanças na tela de
 
 - O radio é escondido usando CSS e é ativado quando o jogador clica no label de resposta 
 
+**Conversão de medidas**
+- Mudei algumas medidas de rem para vw por que fica mais responsivo
+
+- O jogo agora fica melhor quando aberto em dispositivos moveis, mas somente se ele estiver em modo paisagem
+
+- Em meus testes o jogo estava jogavel em um celular, mas acho que deveriamos colocar um aviso assim que o jogador entrar para utilizar em modo paisagem
+
+**Adição do favicon**
+- Agora tem uma fotinha do Sora ao lado do nome do jogo
+
 ## **Coisas que ainda precisam ser feitas**
 
 - [ ] Resolver os bugs de tamanho quando a tela é reduzida
@@ -63,3 +73,5 @@ Troquei algumas cores na tela de login e apliquei as mesmas mudanças na tela de
 - [ ] Fazer a tela de créditos
 
 - [ ] Desenvolver o timer para a responder as perguntas
+
+- [ ] Colocar uma janela de aviso quando o usuario entrar com um dispositivo de tela pequena
