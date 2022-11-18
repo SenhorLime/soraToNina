@@ -20,14 +20,14 @@ const quizData = [
     correct: "c",
   },
   {
-    question: "What does HTML stand for?",
+    question: "Sora pega seu skate, poe seu capacete e vai em direção a escola, mas no caminho um motorista imprudente avança o sinal vermelho e quase atropela sora. Qual o hormônio liberado?",
     answer: {
-      a: "Hypertext Markup Language",
-      b: "Hypertext Markdown Language",
-      c: "Hyperloop Machine Language",
-      d: "Helicopters Terminals Motorboats Lamborginis",
+      a: "Estrogênio",
+      b: "Paratormônio",
+      c: "Testoterona",
+      d: "Cortisol",
     },
-    correct: "a",
+    correct: "d",
   },
 ];
 
