@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap');
+
+body {
+    background-color: #353340;
+}
+.pagCreditos{
+    background-color: #353340;
+    width: 85vw;
+    height: 46vw;
+   position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+
+}
+
+.todos-perfis{
+    display: flex;
+    flex-direction:column;
+}
+
+.perfis{
+    background-color: #353340;
+    width: 80vw;
+    height: 20vw;
+    border-radius: 15px;
+    box-shadow: 0 0 20px #685073;
+    margin: 2vw;
+    padding:1vw;
+}
+
+.foto-perfil{
+    height:12vw;
+    width:10vw; 
+    border-radius: 25px;
+    padding: 1vw;
+}
+
+.icones{
+    max-width: 10%;
+    max-block-size: 15vw;
+    border-radius:5vw;
+    padding: 0.2vw;
+}
+
+.icones {
+    color: whitesmoke;
+    background-color: aliceblue;
+}
+
+.titulo {
+    position:absolute;
+    text-align: center;
+    font-family: "Sora", sans-serif;
+    font-weight: 600;
+    font-size: 2.2em;
+    transform: translate(-50%, -50%);
+    top: 6%;
+    left: 50%;
+    color: #998da6;
+}
+
+.groupImage{
+    transform:translate(50%, 50%);
+    width:78vw;
+    height:20vw;
+}
+
