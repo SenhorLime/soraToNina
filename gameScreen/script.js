@@ -1,6 +1,7 @@
 const quizData = [
   {
-    question: "Sora é um estudante do ensino médio normal. Começando mais um dia escolar, se levanta e vai tomar um banho gelado para se despertar. Qual hormônio liberado?",
+    question:
+      "Sora é um estudante do ensino médio normal. Começando mais um dia escolar, se levanta e vai tomar um banho gelado para se despertar. Qual hormônio liberado?",
     answer: {
       a: "Prolactina",
       b: "Cortisol",
@@ -8,9 +9,11 @@ const quizData = [
       d: "Adrenalina",
     },
     correct: "b",
+    scene: "/Assets/Images/bath.gif",
   },
   {
-    question: "Logo após o banho sora vai para a cozinha e se depara com sua comida preferida. Qual o hormônio liberado?",
+    question:
+      "Logo após o banho sora vai para a cozinha e se depara com sua comida preferida. Qual o hormônio liberado?",
     answer: {
       a: "Tiroxina",
       b: "Adrenalina",
@@ -18,9 +21,11 @@ const quizData = [
       d: "Glucagon",
     },
     correct: "c",
+    scene: "/Assets/Images/kitchen.jpeg",
   },
   {
-    question: "Sora pega seu skate, poe seu capacete e vai em direção a escola, mas no caminho um motorista imprudente avança o sinal vermelho e quase atropela sora. Qual o hormônio liberado?",
+    question:
+      "Sora pega seu skate, poe seu capacete e vai em direção a escola, mas no caminho um motorista imprudente avança o sinal vermelho e quase atropela sora. Qual o hormônio liberado?",
     answer: {
       a: "Estrogênio",
       b: "Paratormônio",
@@ -28,12 +33,15 @@ const quizData = [
       d: "Cortisol",
     },
     correct: "d",
+    scene: "/Assets/Images/street.jpeg",
   },
 ];
 
-const quiz = document.getElementById("quiz-body");
+const quiz = document.querySelector(".quiz-container");
 const answerElements = document.querySelectorAll(".answer");
-const questionElement = document.getElementById("question");
+const questionElement = document.querySelector(".quiz-header");
+const questionScene = document.querySelector(".quiz-scene");
+const questionNumber = document.querySelector("title");
 
 const a_text = document.getElementById("text_a");
 const b_text = document.getElementById("text_b");
@@ -67,6 +75,8 @@ const loadQuiz = () => {
   const currentQuizData = quizData[currentQuiz];
 
   questionElement.innerText = currentQuizData.question;
+  questionNumber.innerHTML = `STN - Questão ${currentQuiz+1}`;
+  questionScene.innerHTML = `<img src="${currentQuizData.scene}"/>`;
 
   a_text.innerText = currentQuizData.answer.a;
   b_text.innerText = currentQuizData.answer.b;
@@ -86,10 +96,15 @@ submitButton.addEventListener("click", () => {
 
     console.log(score);
 
-   if (currentQuiz < quizData.length) {
+    if (currentQuiz < quizData.length) {
       loadQuiz();
-    } /*else {
-      quiz.innerHTML = `<h2>You answered ${score}/${quizData.length} questions correctly</h2> <button onclick="history.go(0)> Play Again</button>`;
-    }*/
+    } else {
+      quiz.innerHTML = `Você respondeu ${score}/${quizData.length} corretamente`;
+      questionNumber.innerHTML = `Sora To Nina`;
+    }
   }
 });
+
+//function warning() {
+  //window.alert("Caso você esteja usando um dispositivo movel é indicado usar em modo paisagem");
+//}
