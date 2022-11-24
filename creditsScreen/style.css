@@ -1,69 +1,85 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap');
 
-body {
-    background-color: #353340;
-}
-.pagCreditos{
-    background-color: #353340;
-    width: 85vw;
-    height: 46vw;
-   position: absolute;
-    transform: translate(-50%, -50%);
-    top: 50%;
-    left: 50%;
-
+* {
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #2d2b39;
 }
 
-.todos-perfis{
+.credits-page {
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.perfis{
-    background-color: #353340;
-    width: 80vw;
-    height: 20vw;
-    border-radius: 15px;
-    box-shadow: 0 0 20px #685073;
+.credits-page span {
+    font-family: 'Sora', sans-serif;
+    font-size: 2.3vw;
+    font-weight: 500;
     margin: 2vw;
-    padding:1vw;
 }
 
-.foto-perfil{
-    height:12vw;
-    width:10vw; 
-    border-radius: 25px;
+.credits-page img {
+    max-width: 35vw;
+    max-height: 20vw;
+}
+
+.creators-profile {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.profiles {
+    display: flex;
+    flex-direction: row;
+    background-color: #423973;
+    width: 30vw;
+    height: 10vw;
+    margin: 1vw;
     padding: 1vw;
 }
 
-.icones{
-    max-width: 10%;
-    max-block-size: 15vw;
-    border-radius:5vw;
-    padding: 0.2vw;
+.profile-picture {
+    width: 8vw;
+    height: 8vw;
+    border-radius: 50%;
+    margin: 0 1vw 0 1vw;
 }
 
-.icones {
-    color: whitesmoke;
-    background-color: aliceblue;
-}
-
-.titulo {
-    position:absolute;
+.creator-info {
     text-align: center;
-    font-family: "Sora", sans-serif;
-    font-weight: 600;
-    font-size: 2.2em;
-    transform: translate(-50%, -50%);
-    top: 6%;
-    left: 50%;
-    color: #998da6;
+    background-color: #423973;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1vw;
 }
 
-.groupImage{
-    transform:translate(50%, 50%);
-    width:78vw;
-    height:20vw;
+.creator-name {
+    background-color: #423973;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5vw;
+    font-weight: 500;
 }
+
+.social-icons{
+    background-color: #423973;
+    margin-top: 1vw;
+}
+
+.social-icons img{
+    background-color: #423973;
+    width: 3vw;
+    height: 3vw;
+    border-radius: 50%;
+}
+
 

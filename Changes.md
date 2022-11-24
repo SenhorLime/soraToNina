@@ -54,13 +54,32 @@ Troquei algumas cores na tela de login e apliquei as mesmas mudanças na tela de
 **Adição do favicon**
 - Agora tem uma fotinha do Sora ao lado do nome do jogo
 
+### **Dias 22/11 e 23/11  - Grandes Mudanças**
+
+Troquei mais medidas de em para vw padronizando todo o código
+
+**Adição de algumas cenas**
+- As cenas foram adicionadas e o JS consegue acessar seu local e as coloca no HTML
+- Elas ficam em loop até que o jogador responda e passe para a proxima pergunta
+
+**Uso de dois Arquivos JavaScript (Demorei para resolver, mas consegui)**
+
+Usar somente um arquivo de JS estava me incomodando, pois existiam muitas linhas de código que serviam somente para armazer as perguntas e a localização das imagens
+
+Depois de muitos erros e soluções falhas foi possivel criar um arquivo somente para colocar armazenar esse dados deixando o código com uma leitura bem mais simplificada
+
+**Criação da tela de Créditos**
+
+Uma vesão da tela de Créditos foi criada. Ainda falta algumas coisas, mas é menos algo para gente fazer
+
+
 ## **Coisas que ainda precisam ser feitas**
 
-- [ ] Resolver os bugs de tamanho quando a tela é reduzida
+- [x] Resolver os bugs de tamanho quando a tela é reduzida (Desde que o jogador use o modo paisagem não tem problemas, segundo os testes do Dev Tools)
 
-- [ ] Aplicar a paleta de cores correta
+- [x] Aplicar a paleta de cores correta (A versão incial se manteva até o momento)
 
-- [ ] Testar como as cenas vão aparecer
+- [x] Testar como as cenas vão aparecer (Funciona - Dia 22/11)
 
 - [x] Pegar o valor do input usando o JS (Completo dia 18/11)
 
@@ -68,9 +87,9 @@ Troquei algumas cores na tela de login e apliquei as mesmas mudanças na tela de
 
 - [ ] Fazer a tela de finalização
 
-- [ ] Testar o jogo com outras pessoas
+- [x] Testar o jogo com outras pessoas (Quase todo dia que uma mudança nova é implementada eu testo)
 
-- [ ] Fazer a tela de créditos
+- [ ] Fazer a tela de créditos (Ainda falta finalizar)
 
 - [ ] Desenvolver o timer para a responder as perguntas
 
