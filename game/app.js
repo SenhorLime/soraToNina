@@ -56,7 +56,7 @@ const loadQuiz = () => { // Inicio da funcao
 
   questionNumber.innerHTML = `STN - Fase ${currentQuiz + 1}`; // Muda o titulo da pagina de acordo com o numero da questao
   questionScene.innerHTML = `<img src="${currentQuizData.scene}"/>`; // Troca a imagem da cena de acordo com a cena
-  questionElement.innerText = currentQuizData.question; // Carrega a pergunta 
+  questionElement.innerHTML = currentQuizData.question; // Carrega a pergunta 
 
   // Carrega as repostas para a pergunta
   a_text.innerText = currentQuizData.answer.a;
@@ -98,6 +98,11 @@ submitButton.addEventListener("click", () => { // Inicio da funcao
       timer = 9999999;
 
       if (score < quizData.length / 2) {
+
+        questionNumber.innerText = "Sora To Nina - Final"
+
+        questionScene.innerHTML = '<img src="/Assets/Scenes/finalDaTristeza.gif"/>'
+
         quiz.innerHTML = `
                 <div class="final-score">
                     <h2>Você acertou ${score}/${quizData.length} perguntas</h2>
@@ -113,6 +118,11 @@ submitButton.addEventListener("click", () => { // Inicio da funcao
                     <button onclick="history.go(0)">Jogar Novamente</button>
                 </div>`;
       } else {
+
+        questionNumber.innerText = "Sora To Nina - Final"
+
+        questionScene.innerHTML = '<img src="/Assets/Scenes/finalDaFelicidade.gif"/>'
+
         quiz.innerHTML = `
                 <div class="final-score">
                     <h2>Você acertou ${score}/${quizData.length} perguntas</h2>

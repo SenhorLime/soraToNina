@@ -129,11 +129,11 @@ export const quizData = [
       d: "Mineralocorticoídes",
     },
     correct: "c",
-    scene: "/Assets/Scenes/street.jpeg",
+    scene: "/Assets/Scenes/colinhaNaProva.gif",
   },
   {
     question:
-      "Fazendo a prova, Sora se depara com as seguintes questões. 1) qual dos órgãos a seguir não participa do sistema endócrino? ",
+      "Fazendo a prova, Sora se depara com as seguintes questões. <br> 1)Qual dos órgãos a seguir não participa do sistema endócrino? ",
     answer: {
       a: "Hipófise",
       b: "Rins",
@@ -157,7 +157,7 @@ export const quizData = [
   },
   {
     question:
-      "3)Os principais hormônios femininos são o _________ e a ________, fabricados nos, entram em atividade na adolescência e sofrem variações constantes durante o dia a dia da mulher. A opção que melhor preenche as lacunas é:",
+      "3)Os principais hormônios femininos são o _________ e a ________, entram em atividade na adolescência e sofrem variações constantes durante o dia a dia da mulher. A opção que melhor preenche as lacunas é:",
     answer: {
       a: "Estrogênio e Prolactina",
       b: "Testoterona e Cortisol",
@@ -178,5 +178,17 @@ export const quizData = [
     },
     correct: "a",
     scene: "/Assets/Scenes/corpoHumano.jpeg",
+  },
+  {
+    question:
+      "Ao final da prova, Sora sente alívio pois acha que não foi tão mal, e segue seu caminho para casa mais tranquilo. Qual o hormônio liberado?",
+    answer: {
+      a: "Melatonina",
+      b: "Endorfina",
+      c: "Dopamina",
+      d: "Cortisol",
+    },
+    correct: "b",
+    scene: "/Assets/Scenes/soraDeBoa.gif",
   },
 ];
