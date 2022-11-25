@@ -1,7 +1,7 @@
 // Importando as questoes, respostas, resposta correta e localizacao das imagens
 import { quizData } from "./quizData.js";
 
-// Declaracao de variaveis para localizacao de partes do HTML 
+// Declaracao de variaveis para localizacao de partes do HTML
 const questionScene = document.querySelector(".quiz-scene");
 const quiz = document.querySelector(".quiz-container");
 const questionElement = document.querySelector(".quiz-header");
@@ -25,16 +25,16 @@ let timer;
 let currentQuiz = 0;
 let score = 0;
 
-
 // Funcao para deselecionar as repostas
-const deselectAnswers = () => { // Inicio da funcao
+const deselectAnswers = () => {
+  // Inicio da funcao
   answerElements.forEach((answer) => (answer.checked = false));
 };
 // Fim da funcao
 
-
 // Funcao para armazenar qual resposta foi marcada
-const getSelected = () => { // Inicio da funcao
+const getSelected = () => {
+  // Inicio da funcao
   let answer;
 
   answerElements.forEach((answerElements) => {
@@ -47,16 +47,16 @@ const getSelected = () => { // Inicio da funcao
 };
 // Fim da funcao
 
-
 // Funcao que carrega a pergunta e as respostas do quiz
-const loadQuiz = () => { // Inicio da funcao
+const loadQuiz = () => {
+  // Inicio da funcao
   deselectAnswers();
 
   const currentQuizData = quizData[currentQuiz];
 
   questionNumber.innerHTML = `STN - Fase ${currentQuiz + 1}`; // Muda o titulo da pagina de acordo com o numero da questao
   questionScene.innerHTML = `<img src="${currentQuizData.scene}"/>`; // Troca a imagem da cena de acordo com a cena
-  questionElement.innerHTML = currentQuizData.question; // Carrega a pergunta 
+  questionElement.innerHTML = currentQuizData.question; // Carrega a pergunta
 
   // Carrega as repostas para a pergunta
   a_text.innerText = currentQuizData.answer.a;
@@ -72,17 +72,16 @@ const loadQuiz = () => { // Inicio da funcao
 
 loadQuiz(); // Carrega o quiz
 
-
 // Funcao ativada a partir do evento onclick no botao submit
-submitButton.addEventListener("click", () => { // Inicio da funcao
+submitButton.addEventListener("click", () => {
+  // Inicio da funcao
   console.clear(); // Limpa o console para nao deixar poluido
-
 
   const answer = getSelected(); // Pega a resposta marcada no input
 
   // Realizacao de testes para saber se a reposta marcada foi certa ou errada
   if (answer) {
-    if (answer === quizData[currentQuiz].correct) { 
+    if (answer === quizData[currentQuiz].correct) {
       score++; // Aumenta o contador desde que a reposta correta seja marcada
     }
     currentQuiz++; // Aumenta o contador de qual questao esta
@@ -90,18 +89,17 @@ submitButton.addEventListener("click", () => { // Inicio da funcao
     timer = 60; // Define o tempo para o timer
 
     // Verifica se ainda existem questoes para serem respondidas
-    if (currentQuiz < quizData.length) { 
+    if (currentQuiz < quizData.length) {
       loadQuiz(); // Se sim carrega a proxima
     } else {
-
       // Senao exibe a tela final e define o tempo do timer para algo que nao vai ser alcancado
       timer = 9999999;
 
       if (score < quizData.length / 2) {
+        questionNumber.innerText = "Sora To Nina - Final";
 
-        questionNumber.innerText = "Sora To Nina - Final"
-
-        questionScene.innerHTML = '<img src="/Assets/Scenes/finalDaTristeza.gif"/>'
+        questionScene.innerHTML =
+          '<img src="/Assets/Scenes/finalDaTristeza.gif"/>';
 
         quiz.innerHTML = `
                 <div class="final-score">
@@ -112,16 +110,15 @@ submitButton.addEventListener("click", () => { // Inicio da funcao
                 </div>
 
                 <div class="control-panel">
-                    <button>
-                        <a href="/credits/index.html">Créditos</a>
-                    </button>
+                    <a href="/credits/index.html">Créditos</a>
+                    <a href="./index.html">Menu Inicial</a>
                     <button onclick="history.go(0)">Jogar Novamente</button>
                 </div>`;
       } else {
+        questionNumber.innerText = "Sora To Nina - Final";
 
-        questionNumber.innerText = "Sora To Nina - Final"
-
-        questionScene.innerHTML = '<img src="/Assets/Scenes/finalDaFelicidade.gif"/>'
+        questionScene.innerHTML =
+          '<img src="/Assets/Scenes/finalDaFelicidade.gif"/>';
 
         quiz.innerHTML = `
                 <div class="final-score">
@@ -132,16 +129,14 @@ submitButton.addEventListener("click", () => { // Inicio da funcao
                 </div>
 
                 <div class="control-panel">
-                    <button>
-                        <a href="/credits/index.html">Créditos</a>
-                    </button>
+                    <a href="/credits/index.html">Créditos</a>
+                    <a href="./index.html">Menu Inicial</a>
                     <button onclick="history.go(0)">Jogar Novamente</button>
                 </div>`;
       }
     }
   }
 });
-
 
 // Funcao que inicia o timer
 function startTimer(duration, display) {

@@ -140,13 +140,23 @@
 
 .control-panel a{
     background-color: #2a2839;
-    color: #c6bef3
+    color: #c6bef3;
+    font-size: 1.2vw;
+    font-weight: 500;
+    text-align: center;
+    padding: 1.2vw 0;
+    border: none;
+    width: 10vw;
+    height: 3.5vw;
+    border-radius: 15px;
+    float: right;
+    transition: 0.3s linear;
 }
 
 .control-panel a:hover {
     background-color: #433f5d;
     color: #9088b9;
-    transition: 0.2s linear;
+    transition: 0.3s linear;
 }
 
 .final-score {

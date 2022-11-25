@@ -11,7 +11,7 @@ export const quizData = [
     correct: "b",
     scene: "/Assets/Scenes/soraBath.gif",
   },
- {
+  {
     question:
       "Logo após o banho sora vai para a cozinha e se depara com sua comida preferida. Qual o hormônio liberado?",
     answer: {
@@ -24,8 +24,8 @@ export const quizData = [
     scene: "/Assets/Scenes/soraEating.gif",
   },
   {
-    question: 
-      "Sora pega seu skate, põe seu capacete e vai em direção a escola, mas no caminho um motorista imprudente avança o sinal vermelho e quase atropela sora. Qual o hormônio liberado?",
+    question:
+      "Sora pega seu skate, põe seu capacete e vai em direção a escola, mas no caminho um motorista imprudente avança o sinal vermelho e quase o atropela. Qual o hormônio liberado?",
     answer: {
       a: "Estrogênio",
       b: "Paratormônio",
@@ -37,7 +37,7 @@ export const quizData = [
   },
   {
     question:
-      "Após esse susto Sora continua seu caminho até a escola. Chegando a escola, ele encontra com o professor que está devendo uma atividade, com medo, tenta se esconder. Qual hormônio liberado?",
+      "Após esse susto Sora continua seu caminho até a escola. Chegando a escola, ele encontra com um professor para o qual está devendo uma atividade, com medo, tenta se esconder. Qual hormônio liberado?",
     answer: {
       a: "Insulina",
       b: "Epinefrina",
@@ -49,7 +49,7 @@ export const quizData = [
   },
   {
     question:
-      "Indo em direção a sala de aula, Sora se depara com sua Crush, Nina. Sora a olha de longe apaixonado. Qual hormônio liberado?",
+      "Indo em direção a sala de aula, Sora se depara com a garota que ele gosta, Nina. Sora a olha de longe apaixonado. Qual hormônio liberado?",
     answer: {
       a: "Testoterona",
       b: "Dopamina",
@@ -61,7 +61,7 @@ export const quizData = [
   },
   {
     question:
-      "Dentro da sala de aula, Sora está tendo a aula mais chata de todas. Ele começa a ficar com sono e dá uma cochilada durante a aula. Qual hormônio causou isso?",
+      "Na sala , Sora tem a aula mais entediante de sua vida, e seus olhos começam a fechar, dando um cochilo durante a mesma. Qual hormônio causou essa sensação de sono?",
     answer: {
       a: "LH",
       b: "Melatonina",
@@ -97,7 +97,7 @@ export const quizData = [
   },
   {
     question:
-      "Depois de tomar sua aguinha, Sora vai em direção a sala para estudar. No próximo horário tem uma prova e ele está nervoso porque não estudou. Qual hormônio liberado?",
+      "Depois de tomar sua água, Sora vai em direção a sala para estudar. No próximo horário tem uma prova e ele está nervoso porque não estudou. Qual hormônio liberado?",
     answer: {
       a: "Insulina",
       b: "Cortisol",
@@ -121,7 +121,7 @@ export const quizData = [
   },
   {
     question:
-      "Durante a prova Sora fica com medo ao ver seu colega colando e fica com medo de também levar a culpa se seu colega for pego. Qual o hormônio liberado?",
+      "Durante a prova Sora  vê seu colega colando e fica com medo de também levar a culpa se seu colega for pego. Qual o hormônio liberado?",
     answer: {
       a: "Estrogênio",
       b: "Dopamina",
