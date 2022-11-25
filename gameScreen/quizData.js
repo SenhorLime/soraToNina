@@ -9,9 +9,9 @@ export const quizData = [
       d: "Adrenalina",
     },
     correct: "b",
-    scene: "/Assets/Images/bath.gif",
+    scene: "/Assets/Scenes/soraBath.gif",
   },
-  {
+ {
     question:
       "Logo após o banho sora vai para a cozinha e se depara com sua comida preferida. Qual o hormônio liberado?",
     answer: {
@@ -21,10 +21,10 @@ export const quizData = [
       d: "Glucagon",
     },
     correct: "c",
-    scene: "/Assets/Images/eating.gif",
+    scene: "/Assets/Scenes/soraEating.gif",
   },
   {
-    question:
+    question: 
       "Sora pega seu skate, pẽe seu capacete e vai em direção a escola, mas no caminho um motorista imprudente avança o sinal vermelho e quase atropela sora. Qual o hormônio liberado?",
     answer: {
       a: "Estrogênio",
@@ -33,7 +33,7 @@ export const quizData = [
       d: "Cortisol",
     },
     correct: "d",
-    scene: "/Assets/Images/skating.gif",
+    scene: "/Assets/Scenes/soraSkating.gif",
   },
   {
     question:
@@ -45,19 +45,7 @@ export const quizData = [
       d: "TSH",
     },
     correct: "c",
-    scene: "/Assets/Images/street.jpeg",
-  },
-  {
-    question:
-      "Sora consegue fugir do professor e entra pela porta de trás. Ao entrar se encontra com seu melhor amigo e fica extremamente feliz. Qual hormônio liberado?",
-    answer: {
-      a: "Oxitocina",
-      b: "Serotonina",
-      c: "Dopamina",
-      d: "Estrogênio",
-    },
-    correct: "a",
-    scene: "/Assets/Images/street.jpeg",
+    scene: "/Assets/Scenes/runningInThe90s.gif",
   },
   {
     question:
@@ -69,7 +57,7 @@ export const quizData = [
       d: "ACTH",
     },
     correct: "b",
-    scene: "/Assets/Images/street.jpeg",
+    scene: "/Assets/Scenes/soraLove.gif",
   },
   {
     question:
@@ -81,7 +69,7 @@ export const quizData = [
       d: "Glicocorticoides",
     },
     correct: "b",
-    scene: "/Assets/Images/classroom.gif",
+    scene: "/Assets/Scenes/soraCochilinho.gif",
   },
   {
     question:
@@ -93,9 +81,9 @@ export const quizData = [
       d: "Noradrenalina",
     },
     correct: "d",
-    scene: "/Assets/Images/street.jpeg",
+    scene: "/Assets/Scenes/soraWakeUp.gif",
   },
-  {
+  /*{
     question:
       "Ao se levantar Sora percebe que não havia tomado água nesse dia ainda e sente que sua garganta está seca. Qual o hormônio liberado?",
     answer: {
@@ -105,7 +93,7 @@ export const quizData = [
       d: "Mineralocorticoídes",
     },
     correct: "b",
-    scene: "/Assets/Images/street.jpeg",
+    scene: "/Assets/Scenes/street.jpeg",
   },
   {
     question:
@@ -117,7 +105,7 @@ export const quizData = [
       d: "Testoterona",
     },
     correct: "b",
-    scene: "/Assets/Images/street.jpeg",
+    scene: "/Assets/Scenes/street.jpeg",
   },
   {
     question:
@@ -129,18 +117,54 @@ export const quizData = [
       d: "Pâncreas",
     },
     correct: "c",
-    scene: "/Assets/Images/street.jpeg",
+    scene: "/Assets/Scenes/street.jpeg",
   },
   {
     question:
-      "Ele vê seu colega colando e fica com medo se tomar a culpa junto. Qual hormônio liberado?",
+      "Fazendo a prova, Sora se depara com as seguintes questões. 1) qual dos órgãos a seguir não participa do sistema endócrino? ",
     answer: {
-      a: "Estrogênio",
-      b: "Dopamina",
-      c: "Noradrenalina",
-      d: "Mineralocorticoídes",
+      a: "Hipófise",
+      b: "Rins",
+      c: "Fígado",
+      d: "Nenhuma Alternativa",
+    },
+    correct: "d",
+    scene: "/Assets/Scenes/street.jpeg",
+  },
+  {
+    question:
+      "2)Localizados nos rins, os néfrons são a unidade funcional dos mesmos. qual dos seguintes não corresponde a uma parte dos néfrons?",
+    answer: {
+      a: "Corpúsculo Renal",
+      b: "Ducto Deferente",
+      c: "Ducto Coletor",
+      d: "Cápsula Renal",
     },
     correct: "b",
-    scene: "/Assets/Images/street.jpeg",
+    scene: "/Assets/Scenes/street.jpeg",
   },
+  {
+    question:
+      "3)Os principais hormônios femininos são o _________ e a ________, fabricados nos, entram em atividade na adolescência e sofrem variações constantes durante o dia a dia da mulher. A opção que melhor preenche as lacunas é:",
+    answer: {
+      a: "Estrogênio e Prolactina",
+      b: "Testoterona e Cortisol",
+      c: "Estrogênio e Progesterona",
+      d: "ADH e Insulina",
+    },
+    correct: "c",
+    scene: "/Assets/Scenes/street.jpeg",
+  },
+  {
+    question:
+      "4)A hipófise possui importantes funções, como controlar outras glândulas e contribuir para o metabolismo e produção de hormônios.A partir de sua relação com o ___________, a hipófise representa locais de interação entre o sistema endócrino e o sistema _________. Preenchendo as lacunas, encontramos:",
+    answer: {
+      a: "Hipotálamo - Nervoso",
+      b: "Mio Cárdio - Circulatório",
+      c: "Hipófise - Digestório",
+      d: "Bulbo - Digestório",
+    },
+    correct: "a",
+    scene: "/Assets/Scenes/street.jpeg",
+  },*/
 ];

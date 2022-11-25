@@ -17,6 +17,7 @@
 }
 
 .credits-page span {
+    color: #c6bef3;
     font-family: 'Sora', sans-serif;
     font-size: 2.3vw;
     font-weight: 500;
@@ -26,6 +27,12 @@
 .credits-page img {
     max-width: 35vw;
     max-height: 20vw;
+}
+
+.credits-page p {
+    color: #b2abd8;
+    font-size: 1.4vw;
+    margin: 3vw;
 }
 
 .creators-profile {
@@ -39,11 +46,12 @@
 .profiles {
     display: flex;
     flex-direction: row;
-    background-color: #423973;
+    background-color: #323042;
     width: 30vw;
     height: 10vw;
     margin: 1vw;
     padding: 1vw;
+    border-radius: 10px;
 }
 
 .profile-picture {
@@ -55,7 +63,7 @@
 
 .creator-info {
     text-align: center;
-    background-color: #423973;
+    background-color: #323042;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -64,19 +72,21 @@
 }
 
 .creator-name {
-    background-color: #423973;
+    color: #b2abd8;
+    background-color: #323042;
     font-family: 'Poppins', sans-serif;
     font-size: 1.5vw;
     font-weight: 500;
 }
 
 .social-icons{
-    background-color: #423973;
+    background-color: #323042;
     margin-top: 1vw;
 }
 
 .social-icons img{
-    background-color: #423973;
+    color: #b2abd8;
+    background-color: #323042;
     width: 3vw;
     height: 3vw;
     border-radius: 50%;

@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap');
+
+body {
+    background-color: #353340;
+}
+.game-menu {
+    background-color: #353340;
+    width: 30vw;
+    height: 45vw;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 15px;
+    box-shadow: 0 0 20px #685073;
+}
+
+.title {
+    position: relative;
+    font-family: "Sora", sans-serif;
+    font-weight: 600;
+    font-size: 3.1vw;
+    transform: translate(-50%, -50%);
+    top: 30%;
+    left: 12%;
+    color: #998da6;
+}
+
+.menu-buttons {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 70%;
+    left: 50%;
+}
+
+.menu-buttons a {
+    font-family: "Inter", sans-serif;
+    font-size: 1.5vw;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    padding: 0.7vw;
+    width: 25vw;
+    margin: 0.9vw;
+    border-radius: 50px;
+    background-color: #2a2839;
+    color: #f2f2f2;
+    transition: 0.5s linear;
+    box-shadow: 0 0 10px #433f5d;
+}
+
+.menu-buttons a:hover {
+    background-color: #433f5d;
+    color: #b2abd8;
+    box-shadow: 0 0 10px #2f2c42;
+    transition: 0.5s linear;
+}
+
+

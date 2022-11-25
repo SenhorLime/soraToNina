@@ -115,7 +115,7 @@
     font-weight: 500;
     border: none;
     width: 10vw;
-    height: 3vw;
+    height: 3.5vw;
     border-radius: 15px;
     float: right;
     padding: 0 1vw;
@@ -136,4 +136,15 @@
     justify-content: center;
     color: #c6bef3;
     background-color: #323042;
+}
+
+.control-panel a{
+    background-color: #2a2839;
+    color: #c6bef3
+}
+
+.control-panel a:hover {
+    background-color: #433f5d;
+    color: #9088b9;
+    transition: 0.2s linear;
 }
