@@ -111,7 +111,7 @@ submitButton.addEventListener("click", () => {
 
                 <div class="control-panel">
                     <a href="/credits/index.html">Créditos</a>
-                    <a href="index.html">Menu Inicial</a>
+                    <a href="/index.html">Menu Inicial</a>
                     <button onclick="history.go(0)">Jogar Novamente</button>
                 </div>`;
       } else {
@@ -130,7 +130,7 @@ submitButton.addEventListener("click", () => {
 
                 <div class="control-panel">
                     <a href="/credits/index.html">Créditos</a>
-                    <a href="index.html">Menu Inicial</a>
+                    <a href="/index.html">Menu Inicial</a>
                     <button onclick="history.go(0)">Jogar Novamente</button>
                 </div>`;
       }
