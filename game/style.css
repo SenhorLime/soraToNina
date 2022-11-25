@@ -1,0 +1,174 @@
+@import url(/Assets/fonts.css);
+
+* {
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #2d2b39;
+}
+
+.quiz-scene {
+    background-color: #353340;
+    width: 35vw;
+    height: 35vw;
+    position: absolute;
+    transform: translate(-135%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 25px;
+    box-shadow: 0 0 10px #685073;
+}
+
+.quiz-container {
+    background-color: #323042;
+    width: 56vw;
+    height: 42vw;
+    position: absolute;
+    transform: translate(-15%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 25px;
+    box-shadow: 0 0 10px #685073;
+}
+
+.quiz-header {
+    padding: 2.1vw;
+    font-size: 1.7vw;
+    font-weight: 600;
+    text-align: left;
+    color: #c6bef3;
+    background-color: #323042;
+    border-radius: 25px 25px 0 0;
+}
+
+.quiz-scene img {
+    max-width: 100%;
+    max-height: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    border-radius: 25px;
+}
+
+.quiz-body {
+    background-color: #323042;
+}
+
+.quiz-body ul {
+    list-style: none;
+    padding: 0;
+    margin:  1vw 14vw 0 14vw;
+}
+
+.quiz-body ul li {
+    padding: 0.52vw;
+    background-color: #323042;
+}
+
+.quiz-body input {
+    display: none;
+}
+
+.quiz-body label {
+    font-size: 1.3vw;
+    font-weight: 500;
+    display: inline-block;
+    width: 25vw;
+    padding: 1vw 0;
+    border-radius: 25px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #2a2839;
+    color: #e2dcff;
+    transition: 0.4s linear;
+    box-shadow: 0 0 10px #433f5d;
+}
+
+.quiz-body label:hover {
+    background-color: #433f5d;
+    color: #b2abd8;
+    box-shadow: 0 0 10px #2f2c42;
+    transition: 0.3s linear;
+}
+
+.quiz-body input:checked + label {
+    background-color: #433f5d;
+    color: #b2abd8;
+    box-shadow: 0 0 10px #2f2c42;
+    transition: 0.3s linear;
+}
+
+.control-panel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5vw 4vw 0 4vw;
+    background-color: #323042;
+}
+
+.control-panel button{
+    background-color: #2a2839;
+    color: #c6bef3;
+    font-size: 1.2vw;
+    font-weight: 500;
+    border: none;
+    width: 10vw;
+    height: 3.5vw;
+    border-radius: 15px;
+    float: right;
+    padding: 0 1vw;
+    transition: 0.3s linear;
+}
+
+.control-panel button:hover{
+    background-color: #433f5d;
+    color: #9088b9;
+    transition: 0.3s linear;
+}
+
+.control-panel .timer{
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 600;
+    font-size: 2vw;
+    align-items: center;
+    justify-content: center;
+    color: #c6bef3;
+    background-color: #323042;
+}
+
+.control-panel a{
+    background-color: #2a2839;
+    color: #c6bef3
+}
+
+.control-panel a:hover {
+    background-color: #433f5d;
+    color: #9088b9;
+    transition: 0.2s linear;
+}
+
+.final-score {
+    font-family: 'Sora', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #323042;
+    margin: 4vw;
+}
+
+.final-score h2 {
+    font-size: 2.4vw;
+    color: #9088b9;
+    background-color: #323042;
+}
+
+.final-score p {
+    font-size: 1.6vw;
+    margin: 1.5vw;
+    color: #b2abd8;
+    background-color: #323042;
+    text-align: center;
+}

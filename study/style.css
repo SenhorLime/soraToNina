@@ -1,0 +1,98 @@
+@import url(/Assets/fonts.css);
+
+* {
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #998da6;
+    background-color: #2d2b39;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5vw;
+    font-weight: 600;
+    margin: 2vw 0 1.2vw 0;
+}
+
+.header p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3vw;
+    font-weight: 400;
+    margin: 0 0 3vw 0;
+}
+
+.header span {
+    font-weight: 600;
+}
+
+.organ-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.organ-container h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.1vw;
+    font-weight: 600;
+    padding: 0 0 1vw 0;
+}
+
+.organ-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+    height: 15vw;
+    border-radius: 10px;
+    background-color: #353340;
+    margin: 1vw;
+}
+
+.organ-item img {
+    width: 15vw;
+    margin: 1vw;
+}
+
+.organ-description {
+    display: flex;
+    flex-direction: column;
+    background-color: #353340;
+}
+
+.organ-description h3 {
+    font-size: 1.8vw;
+    font-weight: 600;
+    padding: 0 0 1vw 0;
+    margin: 0 1vw;
+    background-color: #353340;
+}
+
+.organ-description p {
+    font-size: 1.3vw;
+    font-weight: 400;
+    padding: 0 0 0.5vw 0;
+    margin: 0 1vw;
+    background-color: #353340;
+}
+
+.organ-description span {
+    font-weight: 600;
+    background-color: #353340;
+}
+
+
+
+
+
+
