@@ -2,17 +2,17 @@
 
 **Trabalho Interdisciplinar entre as matérias de Biologia, WEB e LWEB da turma de INFO 1 do Cefet-MG**
 
-#### Sobre o Jogo
+### Sobre o Jogo
 
 Sora to Nina é um jogo de quiz sobre o sistema endócrino. No jogo você acompanha a vida de Sora, um estudante do ensino médio, vivendo um dia como qualquer outro, enquanto você responde as perguntas baseado no que está acontecendo nas cenas. 
 
 O jogo possuí dois finais, esse finais são mostrados dependendo da quantidade de respostas certas você marca. 
 
-##### Como jogar
+#### Como jogar
 
 Para jogar, basta acessar: https://soratoninabeta.netlify.app/
 
-#### Sobre o trabalho
+## Sobre o trabalho
 
 O trabalho foi feito pelos alunos:
 
