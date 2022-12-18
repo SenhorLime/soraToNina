@@ -112,7 +112,7 @@ submitButton.addEventListener("click", () => {
                 <div class="control-panel">
                     <a href="/credits/index.html">Créditos</a>
                     <a href="/index.html">Menu Inicial</a>
-                    <button onclick="history.go(0)">Jogar Novamente</button>
+                    <button id="reset-game" onclick="history.go(0)">Jogar Novamente</button>
                 </div>`;
       } else {
         questionNumber.innerText = "Sora To Nina - Final";
@@ -131,7 +131,7 @@ submitButton.addEventListener("click", () => {
                 <div class="control-panel">
                     <a href="/credits/index.html">Créditos</a>
                     <a href="/index.html">Menu Inicial</a>
-                    <button onclick="history.go(0)">Jogar Novamente</button>
+                    <button id="reset-game" onclick="history.go(0)">Jogar Novamente</button>
                 </div>`;
       }
     }

@@ -77,6 +77,10 @@ Depois de muitos erros e soluções falhas foi possível criar um arquivo soment
 
 Uma versão da tela de Créditos foi criada. Ainda falta algumas coisas, mas é menos algo para gente fazer
 
+### **Dia 18/12 - Adição de media query**
+
+Adicionei uma media query simples para melhor visualização no celular. Acredito que com isso fique melhor para jogar no celular sem ter que usar ele no modo paisagem. Os testes feitos usando o Dev Tools do Firefox confirmaram que está funcionando muito bem.
+
 ## **Coisas que ainda precisam ser feitas**
 
 - [x] Resolver os bugs de tamanho quando a tela é reduzida (Desde que o jogador use o modo paisagem não tem problemas, segundo os testes do Dev Tools)
